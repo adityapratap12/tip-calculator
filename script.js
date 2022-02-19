@@ -29,4 +29,5 @@ function calculateTip(){
     document.getElementById("tip-per-person").textContent = `\$ ${tipPerPerson}`;
     document.getElementById("total-per-person").textContent = `\$ ${totalPerPerson}`;
 }
+// calling the function
 calculateTip();
