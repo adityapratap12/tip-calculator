@@ -6,7 +6,7 @@ sliders.forEach(function(slider){
 const billInput = document.getElementById("bill");
 billInput.addEventListener("change",calculateTip);
 
-
+// update with git 
 function calculateTip(){
     let bill = parseFloat(billInput.value);
     let tipPercent = document.getElementById("tip").value;
